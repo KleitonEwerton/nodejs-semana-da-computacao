@@ -1,0 +1,27 @@
+{
+  "name": "treinamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KleitonEwerton/nodejs-semana-da-computacao.git"
+  },
+  "author": "Kleiton Ewerton de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KleitonEwerton/nodejs-semana-da-computacao/issues"
+  },
+  "homepage": "https://github.com/KleitonEwerton/nodejs-semana-da-computacao#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
