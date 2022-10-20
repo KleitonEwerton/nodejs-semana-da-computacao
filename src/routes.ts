@@ -14,16 +14,19 @@ routes.get("/home", (req: any, res: any) => {
   );
 });
 
-routes.get('/json', (req, res) => {
+routes.get('/json', (req:any, res:any) => {
 
     res.status(200).json({'message': 'Success!'})
 
 })
 
-routes.get('just-test', (req, res)=>{
+routes.get('/anchor', (req:any, res:any)=>{
 
+    res.render('anchor', {
+        anchor:"Anchor PAGES",
+        anchors:['HP 1','HP 2', 'HP 3', 'HP 4']
+    })
 
-});
-
+})
 
 export default routes;

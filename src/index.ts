@@ -4,6 +4,7 @@ import express from "express";
 import routes from "./routes";
 
 const app = express();
+app.set("view engine", "ejs");
 
 var options = {
   dotfiles: "ignore",

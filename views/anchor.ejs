@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      *,
+      ::after,
+      ::before {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        min-height: 99vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        color: #fff;
+      }
+    </style>
+    <title>OK</title>
+  </head>
+  <body>
+    <br />
+    <ul style="display: flex;flex-direction:column;">
+
+    <% anchors.forEach( (e)=>{ %>
+        
+      <li><%= e %></li>
+      
+      <% }) %>
+    </ul>
+  </body>
+</html>
